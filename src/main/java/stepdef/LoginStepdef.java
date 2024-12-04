@@ -28,4 +28,9 @@ public class LoginStepdef {
         System.out.println("verify the login profile name and baseurl contains dashboard");
     }
 
+    @Then("verify the login profile name and baseurl contains dashboard")
+    public void verify_the_login_profile_name_and_baseurl_contains_dashboard2() {
+        System.out.println("verify the login profile name and baseurl contains dashboard");
+    }
+
 }
